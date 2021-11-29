@@ -1,4 +1,4 @@
-19230494918475813
+19236919949509813
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83230,6 +83230,13 @@ CP2102Module
 14
 14
 library
+CR2013-MI2120
+CR2013-MI2120 ILI9341 LCD Breakout http://pan.baidu.com/s/11Y990
+CR2013-MI2120 ILI9341 LCD Breakout
+0
+22
+18
+library
 CR2032-72898
 
 
@@ -83566,6 +83573,13 @@ QFN-88-P0.4mm_EP6.74x6.74mm
 89
 89
 library
+QS-1205CME-3A_MINIDC-DC_12-24Vto5V3A_1.8V_2.5V_3.3V_5V_9V_12V
+
+
+0
+4
+4
+library
 RFID-RC522
 RFID-RC522 NFC R/W Module
 RFID-RC522
@@ -83642,6 +83656,13 @@ SMD SOT
 0
 3
 3
+library
+SSR_SHARP_S108T02
+
+
+0
+4
+4
 library
 STM32F103C8T6ARMMiniSystemDevboard_RobotDyn
 
@@ -83838,6 +83859,13 @@ TACTSW_6x6mm_TH
 0
 4
 2
+library
+TFT3.2_ILI9341
+CR2013-MI2120 ILI9341 LCD Breakout http://pan.baidu.com/s/11Y990
+CR2013-MI2120 ILI9341 LCD Breakout
+0
+22
+18
 library
 TFT_2_8IN_320x240_ILI9341
 TFT_2_8IN_320x240_ILI9341
