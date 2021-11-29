@@ -103,17 +103,6 @@ F 3 "" H 6750 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
-U 1 1 5FA8817C
-P 5250 6350
-F 0 "#PWR0104" H 5250 6100 50  0001 C CNN
-F 1 "GND" H 5255 6177 50  0000 C CNN
-F 2 "" H 5250 6350 50  0001 C CNN
-F 3 "" H 5250 6350 50  0001 C CNN
-	1    5250 6350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0105
 U 1 1 5FA88E5B
 P 6850 4750
@@ -254,18 +243,11 @@ $EndComp
 Wire Wire Line
 	5100 6200 5550 6200
 Wire Wire Line
-	5100 6100 5550 6100
+	5100 6100 5150 6100
 Wire Wire Line
 	5100 6000 5150 6000
 Wire Wire Line
 	5100 5900 5450 5900
-Wire Wire Line
-	5100 5800 5250 5800
-Wire Wire Line
-	5250 6350 5250 5800
-Connection ~ 5250 5800
-Wire Wire Line
-	5250 5800 5550 5800
 $Comp
 L Device:R R1
 U 1 1 5FAD597E
@@ -796,4 +778,44 @@ Wire Wire Line
 Wire Wire Line
 	8000 4050 8000 3100
 Connection ~ 7750 4050
+$Comp
+L Device:R R5
+U 1 1 61A559C3
+P 5150 6450
+F 0 "R5" H 4850 6550 50  0000 L CNN
+F 1 "33k" H 4900 6450 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5080 6450 50  0001 C CNN
+F 3 "~" H 5150 6450 50  0001 C CNN
+	1    5150 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 61A56AC8
+P 5150 6600
+F 0 "#PWR0126" H 5150 6350 50  0001 C CNN
+F 1 "GND" H 5155 6427 50  0000 C CNN
+F 2 "" H 5150 6600 50  0001 C CNN
+F 3 "" H 5150 6600 50  0001 C CNN
+	1    5150 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 6800 5950 6700
+Wire Wire Line
+	5100 5800 5300 5800
+Wire Wire Line
+	5150 6100 5150 6300
+Connection ~ 5150 6100
+Wire Wire Line
+	5150 6100 5550 6100
+Wire Wire Line
+	5300 5800 5300 6600
+Wire Wire Line
+	5300 6600 5150 6600
+Connection ~ 5300 5800
+Wire Wire Line
+	5300 5800 5550 5800
+Connection ~ 5150 6600
+NoConn ~ 5950 6800
 $EndSCHEMATC
